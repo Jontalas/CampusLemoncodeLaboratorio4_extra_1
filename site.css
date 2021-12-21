@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 32px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+}
+
+.data,
+.actions {
+    padding: 16px;
+}
+
+button {
+    background-color: #c7b93e;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.result {
+    background-color: green;
+}
+
+.clear {
+    background-color: red;
+}
